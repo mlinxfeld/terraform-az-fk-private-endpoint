@@ -2,7 +2,7 @@
 
 This repository contains a reusable **Terraform / OpenTofu module** and progressive examples for deploying **Azure Private Endpoints** with optional **Private DNS Zone** integration (via `terraform-az-fk-private-dns`).
 
-It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses-2/)** and is designed as a dedicated **private connectivity layer** for Azure PaaS services.
+It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses/azure-fundamentals-terraform-course/)** and is designed as a dedicated **private connectivity layer** for Azure PaaS services.
 
 ---
 
