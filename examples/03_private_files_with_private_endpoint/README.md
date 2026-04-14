@@ -1,5 +1,17 @@
 # Example 03: Private Azure Files with Private Endpoint
 
+## 🚀 Learn the full Azure architecture
+
+This example is part of a larger, production-ready setup using reusable Terraform/OpenTofu modules.
+
+👉 See the full step-by-step architecture: [https://foggykitchen.com/courses/azure-fundamentals-terraform-course/](https://foggykitchen.com/courses/azure-fundamentals-terraform-course/)
+
+Includes:
+- compute layer (VMs, scaling)
+- network design (VNet, subnets, routing)
+- private connectivity patterns
+- real-world architecture walkthroughs
+
 This example deploys **two private VMs** that mount **Azure Files (SMB)**
 through a **Private Endpoint**. The storage account is kept private, and
 name resolution is handled by **Private DNS**.
