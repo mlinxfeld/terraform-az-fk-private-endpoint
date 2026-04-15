@@ -1,5 +1,23 @@
 # Example 01: Blob Private Endpoint (Private Access + DNS)
 
+## 🚀 Learn the full Azure architecture
+
+This example shows only one piece of the puzzle:  
+**private access to Azure Blob Storage using a Private Endpoint.**
+
+In real-world architectures, this pattern is combined with:
+
+- compute layer (VMs, AKS, scaling)
+- network design (VNets, subnets, routing)
+- access patterns between services
+- reusable Terraform/OpenTofu modules
+
+👉 See the full step-by-step architecture: [https://foggykitchen.com/courses/azure-fundamentals-terraform-course/](https://foggykitchen.com/courses/azure-fundamentals-terraform-course/)
+
+This course shows how this pattern fits into a complete, production-ready Azure environment.
+
+--- 
+
 In this storage example, we move from **restricted public access**
 to **private connectivity** by introducing a **Private Endpoint for Azure Blob Storage**
 using **Terraform / OpenTofu**.
