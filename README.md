@@ -125,7 +125,7 @@ This repository intentionally avoids abstractions that hide Private Endpoint mec
 
 - [terraform-az-fk-private-dns](https://github.com/mlinxfeld/terraform-az-fk-private-dns)  
 - [terraform-az-fk-vnet](https://github.com/foggykitchen/terraform-az-fk-vnet)  
-- [terraform-az-fk-storage](https://github.com/mlinxfeld/terraform-az-fk-storage)  
+- [terraform-az-fk-storage](https://github.com/foggykitchen/terraform-az-fk-storage)  
 - [terraform-az-fk-compute](https://github.com/mlinxfeld/terraform-az-fk-compute)  
 - [terraform-az-fk-aks](https://github.com/mlinxfeld/terraform-az-fk-aks)  
 - [terraform-az-fk-nsg](https://github.com/mlinxfeld/terraform-az-fk-nsg)  
