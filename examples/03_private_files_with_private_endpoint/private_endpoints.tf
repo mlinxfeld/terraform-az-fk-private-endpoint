@@ -1,5 +1,5 @@
 module "private_endpoint_file" {
-  source = "github.com/mlinxfeld/terraform-az-fk-private-endpoint"
+  source = "github.com/foggykitchen/terraform-az-fk-private-endpoint"
 
   name                = "${local.storage_account_name}-pe-file"
   location            = azurerm_resource_group.foggykitchen_rg.location

@@ -73,7 +73,7 @@ terraform-az-fk-private-endpoint/
 
 ```hcl
 module "private_endpoint" {
-  source = "git::https://github.com/mlinxfeld/terraform-az-fk-private-endpoint.git?ref=v1.0.0"
+  source = "git::https://github.com/foggykitchen/terraform-az-fk-private-endpoint.git?ref=v1.0.0"
 
   name                = "fk-pe-blob"
   location            = "westeurope"
@@ -123,7 +123,7 @@ This repository intentionally avoids abstractions that hide Private Endpoint mec
 
 ## 🧩 Related Modules & Training
 
-- [terraform-az-fk-private-dns](https://github.com/mlinxfeld/terraform-az-fk-private-dns)  
+- [terraform-az-fk-private-dns](https://github.com/foggykitchen/terraform-az-fk-private-dns)  
 - [terraform-az-fk-vnet](https://github.com/foggykitchen/terraform-az-fk-vnet)  
 - [terraform-az-fk-storage](https://github.com/foggykitchen/terraform-az-fk-storage)  
 - [terraform-az-fk-compute](https://github.com/mlinxfeld/terraform-az-fk-compute)  
